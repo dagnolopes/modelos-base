@@ -1,0 +1,14 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "rules": {
+    "no-unused-vars": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "tabWidth": 2,
+        "semi": true,
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
